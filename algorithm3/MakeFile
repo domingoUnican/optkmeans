@@ -1,0 +1,2 @@
+hello: algorithm3secondpart.cpp
+	g++ -fopenmp algorithm3secondpart.cpp cluster.cpp mat_RR.cpp -o algortihm3secondpart.exe

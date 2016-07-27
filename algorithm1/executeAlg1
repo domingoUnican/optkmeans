@@ -1,0 +1,10 @@
+#!/bin/bash
+#@ job_name = test_algorithm1
+#@ initialdir = .
+#@ output = algorithm1_%j.out
+#@ error = algorithm1_%j.err
+#@ total_tasks = 1
+#@ cpus_per_task = 15
+#@ wall_clock_limit = 168:00:00
+#@ class = long7
+python2.7 algorithm1.py -t b
